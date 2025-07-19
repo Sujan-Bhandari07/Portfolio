@@ -1,0 +1,99 @@
+.projects{
+    display: flex;
+    justify-content: center;
+margin-top: 15vh;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+
+    padding: 20px 13vw;
+}
+.projects .protop{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.protop :nth-child(1){
+    font-size: 1rem;
+
+    font-weight: 200;
+    color: gray;
+}
+.protop :nth-child(2){
+    font-size: 2.5rem;
+font-weight: 800;
+
+text-shadow:2px 2px 4px white,2px 2px 4px white ;
+}
+.protop :nth-child(3){
+    font-size: 1rem;
+max-width: 50%;
+text-align: justify;
+    font-weight: 200;
+    color: gray;
+}
+.pcards{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    position: relative;
+    padding: 8px 10px;
+    background-color: #111722;
+}
+.cardss{
+    display: flex;
+    justify-content:center;
+    gap:5vw;
+
+align-items: center;
+
+}
+img{
+    height: 10vh;
+    object-fit: cover;
+    object-position: center;
+
+}.pcards .img{
+
+    height: 20;
+
+
+}
+.pcards h4{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.desc{
+    font-size: 1rem;
+
+    font-weight: 200;
+    color: gray;
+}
+.has{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+}
+.has p{
+    font-size: 1rem;
+    color:rgb(131, 191, 20);
+}
+.desc{
+    padding-top:20px ;
+    text-align: justify;
+}
+.github{
+    filter: invert(1);
+    height: 20px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}

@@ -1,0 +1,34 @@
+.computer{
+    height: 60vh;
+
+}
+Canvas{
+    height: 100%;
+}
+.go{
+    height: 10px;
+    width: 100%;
+    border-radius: 20px;
+    background:linear-gradient(to bottom,#101521 10%,black);
+    padding-top:10px ;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.innergo{
+    border: 1px solid gray;
+    height: 40px;
+    border-radius: 20px;
+    width: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.point{
+height: 2px;
+width: 2px;
+border: 2px solid gray;
+border-radius: 50%;
+}

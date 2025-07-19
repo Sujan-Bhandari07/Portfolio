@@ -1,0 +1,52 @@
+*{
+
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5vh 8vw;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 12;
+
+
+}
+.navleft{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+.navleft img{
+    width: 14vh;
+    clip-path: polygon(50% 11%, 93% 44%, 49% 94%, 11% 50%);
+   -webkit-clip-path: polygon(50% 11%, 93% 44%, 49% 94%, 11% 50%);
+}
+.navleft .logoname{
+  font-size: 3rem;
+  display: flex;
+
+
+  gap: 20px;
+}
+.navright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navright ul{
+    display: flex;
+    justify-content: center;
+gap: 50px;
+    align-items: center;
+}
+
+.navright ul li{
+    list-style: none;
+font-size: 1.1rem;
+text-transform: uppercase;
+}

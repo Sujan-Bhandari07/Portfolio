@@ -1,0 +1,84 @@
+.overview{
+    margin-top:20vh ;
+background-color:black;
+}
+.overtop{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+
+    padding: 0px 0px 7vh 12vw;
+
+    
+}
+.overtop :nth-child(1){
+    font-size: 1rem;
+    line-height: 3rem;
+    font-weight: 200;
+    color: gray;
+}
+.overtop h2{
+font-size: 2.5rem;
+font-weight: 800;
+color: green;
+text-shadow:2px 2px 4px white,2px 2px 4px white ;
+}
+.overtop :nth-child(3){
+    font-size: 1rem;
+padding-top: 15px;
+    font-weight: 200;
+    color: gray;
+}
+.overbottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5vw;
+    gap: 5vw;
+
+
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px; /* smaller gap */
+    border: 2px solid gray;
+    border-radius: 10px;
+    height: 40vh; /* increased height */
+    padding: 10px 20px;
+    background-color: #111723;
+    box-shadow: 0 0 24px 4px rgba(255,255,255,0.4), 0 0 60px 0 rgba(255,255,255,0.15);
+
+}
+
+
+.img{
+    width: 20vw;
+
+
+}
+.img img{
+    width: 20vw;
+    object-fit: cover
+
+
+    ;
+    box-shadow: 0 4px 24px 0 rgba(0,0,0,0.7), 0 0 40px 8px rgba(17,23,35,0.5);
+
+    object-position: center;
+    height: 25vh;
+    border-radius: 10%;
+
+}
+.cards h6{
+    font-size: 1.2rem; /* increased font size */
+    color: #AFEEEE;
+}
+
+.cards:hover{
+    transform: rotate3d(1,1,-1,10deg);
+    transition: rotate 4s ease-in;
+}

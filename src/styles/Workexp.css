@@ -1,0 +1,138 @@
+.workexp {
+    margin-top: 10vh;
+
+    padding: 20px;
+    position: relative;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding-bottom: 10vh ;
+    padding-left: 10vw;
+}
+.top p{
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 200;
+    color: gray;
+}
+.top h2{
+    font-size: 2.5rem;
+font-weight: 800;
+color: white;
+text-shadow:2px 2px 6px rgba(255, 255, 255, 0.859),2px 2px 6px rgba(255, 255, 255, 0.267) ;
+}
+
+
+.experiences{
+    padding: 15px 25px;
+border-bottom: 4px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: #111723;
+    position: absolute;
+
+
+    top: 30px;
+
+    
+}
+.exptop{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start ;
+    flex-direction: column
+    ;
+    gap: 3px;
+
+
+}
+.exptop h4{
+    font-size: 1.5rem;
+    font-weight: 800;
+
+color:white;
+
+}
+.exptop p{
+    font-size: 1rem;
+
+    font-weight: 200;
+    color: gray;
+}
+.ul{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    width: 30vw;
+    gap: 5px;
+}
+ul li {
+    list-style: disc;
+    font-size: 1rem;
+    font-weight: 200;
+    text-align: justify;
+
+
+}
+li::marker{
+    color: #475882;
+}
+.workside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.workside .topbar{
+    height: 7vh;
+    width: 3px;
+border-top-right-radius: 8px;
+border-top-left-radius: 8px;
+    background-color: white;
+}
+.workside img{
+    width: 5vw;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.workside .bottombar{
+    height: 45vh;
+    width: 3px;
+
+
+    background-color: white;
+}
+.ex{
+   position: relative;
+
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+
+gap: 29px;
+}
+.left{
+    left: 150px;
+}
+.right{
+    right: 150px;
+}
+.gsapi{
+border-radius: 50%;
+height: 9vh;
+
+}

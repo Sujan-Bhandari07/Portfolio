@@ -1,0 +1,94 @@
+
+
+.html{
+
+
+position: relative;
+top: -32vh;
+    right: 6vw;
+    width: 25vw;
+
+
+
+
+}
+form{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #0F0D22;
+
+}
+form p{
+    font-size: 1rem;
+
+    font-weight: 200;
+    color: gray;
+}
+form h2{
+    font-size: 2.5rem;
+font-weight: 800;
+
+text-shadow:2px 2px 8px white,2px 2px 8px white ;
+padding-bottom: 30px;
+}
+.label{
+    font-size: 1rem;
+    font-weight: lighter;
+
+
+
+}
+.input{
+    font-size: .8rem;
+color: #AFEEEE;
+    font-weight: 200;
+    border: none;
+    outline: none;
+    line-height: 2rem;
+    background: #130E2F;
+    width: 100%;
+
+
+}
+.input::placeholder{
+    font-size: .8rem;
+    line-height: 2rem;
+
+    font-weight: 200;
+    color: gray;
+}
+.box{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 5px;
+}
+button{
+border: none;
+    outline: none;
+    background: none;
+    
+
+
+    margin-top: 20px;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 1rem;
+}
+button:hover{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.send{
+    color: red;
+position: absolute;
+right: 20px;
+border-bottom: 2px solid white;
+border-radius: 10px;
+padding: 5px;
+bottom: 15px;
+opacity: 0;
+
+}
