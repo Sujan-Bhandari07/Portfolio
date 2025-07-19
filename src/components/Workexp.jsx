@@ -52,7 +52,7 @@ function Workside({img,css}){
             scrollTrigger:{
                 trigger:imgref.current,
                 // markers:true,
-                start:"top 650px",
+                start:"top 550px",
                 end:"+=100px",
         
             }
