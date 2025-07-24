@@ -32,7 +32,7 @@ const App = () => {
   //     content:".contents",
   //     smooth:3,
   //     smoothTouch:.1,
-  //     // effects:true
+  //     effects:true
   //   })
   
   //   return () => {
@@ -42,7 +42,7 @@ const App = () => {
       
   //   }
   // }, [])
-  
+
   
 
 
@@ -55,7 +55,7 @@ const App = () => {
 
 
 
-< Navbar  />
+< Navbar />
 <Intro />
 <Computer />
 <Overview />

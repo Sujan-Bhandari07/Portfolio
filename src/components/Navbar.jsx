@@ -19,7 +19,7 @@ useGSAP(()=>{
         trigger:navref.current,
         // markers:true,
         start:"top top",
-        end:"+=100px",
+        end:"+=1px",
         scrub:3
     }
     })

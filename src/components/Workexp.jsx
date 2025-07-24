@@ -14,12 +14,19 @@ const expref = useRef()
 gsap.from(expref.current,{
     opacity:0,
     duration:.5,
+
     x: position === "left" ? "-50px":"50px",
     scrollTrigger:{
         trigger:expref.current,
+
         // markers:true,
         start:"top 300px",
         end:"+=100px",
+
+
+
+
+
 
     }
 })
@@ -49,11 +56,18 @@ function Workside({img,css}){
             opacity:0,
             duration:.5,
             
+
             scrollTrigger:{
                 trigger:imgref.current,
+
                 // markers:true,
                 start:"top 550px",
                 end:"+=100px",
+
+
+
+
+
         
             }
         })

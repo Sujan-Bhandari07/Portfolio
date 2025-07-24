@@ -82,11 +82,17 @@ const Footer = () => {
                         setEmail('');
                         setName('');
                         setMessage('');
-                        gsap.to(
+                       const tl = gsap.timeline()
+                        tl.to(
                           sendref.current,
 
                           {opacity:1}
                         );
+                        tl.to(sendref.current,{
+                          delay:2,  
+                          duration:.4,
+                            opacity:0
+                        })
                     }}>
                         <p>GET IN TOUCH</p>
                         <h2>CONTACT.</h2>
